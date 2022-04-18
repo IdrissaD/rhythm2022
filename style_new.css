@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Shrikhand;
+    src: url('Shrikhand/Shrikhand-Regular.ttf');
+    src: url('Shrikhand/Shrikhand-Regular.ttf') format('truetype');
+  }
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+
+    background-color: #8c52ff;
+    font-family: Shrikhand, Arial, sans-serif;    
+    text-align: center;
+}
+
+#slogans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: max(6.5vw, 7vh);
+    max-width: 95vw;
+    height: 90vh;
+}
+
+.others {
+    display: none;
+}
+
+.acc {
+    color: #ffde59;
+}
+
+#static_container {
+    position: fixed;
+    bottom: 10vh;
+    width: 100%;
+    font-size: max(2.5vw, 1.65vh);
+}
+
+a:link, a:visited {
+    color: #ffde59;
+    text-decoration: none;
+}
